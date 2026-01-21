@@ -1,30 +1,27 @@
 # Guess Number Game (Python)
 
-A console-based number guessing game built in **Python**, where the computer randomly selects a number and the player tries to guess it.
+A console-based **number guessing game** in Python with two modes:
 
----
+1. **Player guesses** a randomly generated number  
+2. **Computer guesses** your number using an efficient **binary search**  
 
-## Overview
-The game asks the player to choose a maximum number (range). The computer picks a random number within that range.  
-The player keeps guessing until they find the correct number, receiving feedback for each guess:
-
-- **Too low** if the guess is smaller than the number  
-- **Too high** if the guess is larger than the number  
-
-The game handles invalid input and ensures only integer guesses are accepted.
+The game tracks **statistics** for both modes, including fastest and average attempts.
 
 ---
 
 ## Features
-- Random number generation within a user-defined range  
+
+- Two game modes: Player guesses & Computer guesses  
 - Input validation for integers only  
-- Feedback for every guess: "too low" / "too high"  
-- Counts attempts and shows number of tries when guessed correctly  
-- Option to play again or return to main menu  
+- Real-time feedback: "Too low" / "Too high"  
+- Tracks statistics: fastest and average attempts  
+- User-friendly menu with option to play multiple rounds  
 
 ---
 
-## How to Run
+## Installation & Usage
+
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Gabbas-dot/Guess_Number_Game.git
